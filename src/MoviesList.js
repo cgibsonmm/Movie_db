@@ -29,8 +29,9 @@ class MoviesList extends PureComponent {
 export default MoviesList;
 
 const MovieGrid = styled.div`
-  display: grid;
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  flex-wrap: wrap;
   padding: 1rem;
-  grid-template-columns: repeat(6, 1fr);
-  grid-row-gap: 1rem;
 `;
